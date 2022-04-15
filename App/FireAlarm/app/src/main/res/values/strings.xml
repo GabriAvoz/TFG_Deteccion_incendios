@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fire Alarm</string>
+    <string name="exit">Salir</string>
+    <string name="stats">Gráficas</string>
+    <string name="camera">Cámara</string>
+    <string name="fire_alarm">Fire Alarm</string>
+    <string name="flame">Llama</string>
+    <string name="sensors">Sensores</string>
+    <string name="temperature">Temperatura</string>
+    <string name="humidity">Humedad</string>
+    <string name="node">Nodo</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="servo">Servo Control</string>
+    <string name="node_1">Nodo 1</string>
+    <string name="node_2">Nodo 2</string>
+    <string name="center">Centro</string>
+    <string name="left">Izqda</string>
+    <string name="right">Drcha</string>
+</resources>

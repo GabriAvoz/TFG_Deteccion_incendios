@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/forest"
+    tools:context=".ServoControl">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/servo"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/darkfire"/>
+
+    <Button
+        android:id="@+id/btNode1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/node_1"
+        android:textSize="30sp"
+        android:background="@color/tree"
+        android:textColor="@color/white"
+        android:onClick="node1"/>
+
+    <Button
+        android:id="@+id/btNode2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/tree"
+        android:text="@string/node_2"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:onClick="node2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/forest"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/tree"
+            android:onClick="left"
+            android:text="@string/left"
+            android:textColor="@color/white"
+            android:layout_weight="0.3"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:background="@color/forest"/>
+
+        <Button
+            android:id="@+id/btCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/tree"
+            android:onClick="center"
+            android:text="@string/center"
+            android:textColor="@color/white"
+            android:layout_weight="0.3"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:background="@color/forest"/>
+
+        <Button
+            android:id="@+id/btRight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="@color/tree"
+            android:onClick="right"
+            android:text="@string/right"
+            android:textColor="@color/white"
+            android:layout_weight="0.3"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

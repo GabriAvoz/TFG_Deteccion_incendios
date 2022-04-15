@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/forest"
+    android:orientation="vertical"
+    tools:context=".Stats">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/sensors"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/darkfire"/>
+
+    <Button
+        android:id="@+id/btTemp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/temperature"
+        android:textSize="30sp"
+        android:background="@color/tree"
+        android:textColor="@color/white"
+        android:onClick="chartTemp"/>
+
+    <Button
+        android:id="@+id/btHum"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/tree"
+        android:text="@string/humidity"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:onClick="chartHum"/>
+
+    <Button
+        android:id="@+id/btFlame"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/tree"
+        android:text="@string/flame"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:onClick="chartFlame"/>
+
+</LinearLayout>

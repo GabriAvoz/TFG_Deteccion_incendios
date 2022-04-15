@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="forest">#74F974</color>
+    <color name="tree">#542C02</color>
+    <color name="white">#FFFFFF</color>
+    <color name="fire">#F84F2D</color>
+    <color name="darkfire">#7E1601</color>
+</resources>
